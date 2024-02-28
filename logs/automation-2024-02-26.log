@@ -1,0 +1,54 @@
+16:32:17.515 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+16:32:17.766 [main] INFO  baseTest.BaseClass - *********Check the changes in Slider**********
+16:32:18.635 [main] INFO  baseTest.BaseClass - *********Move to Loan Tenure Calculator Page**********
+16:32:23.129 [main] INFO  baseTest.BaseClass - *********Checking the UI of EMI Calculator Page**********
+16:32:23.871 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+22:39:30.429 [main] INFO  baseTest.BaseClass - ********Go to EMI Calcultor**********
+22:39:30.918 [main] INFO  baseTest.BaseClass - ********Enter the Valid Inputs**********
+22:39:32.124 [main] INFO  baseTest.BaseClass - ********Click the Year Button**********
+22:39:32.539 [main] INFO  baseTest.BaseClass - ********Extract the Principal and Interest Amount**********
+22:39:32.960 [main] INFO  baseTest.BaseClass - ********Click the Home Loan Menu**********
+22:39:34.030 [main] INFO  baseTest.BaseClass - *********Enter the Valid Inputs**********
+22:39:36.639 [main] INFO  baseTest.BaseClass - *********Move to payment schedule table**********
+22:39:36.931 [main] INFO  baseTest.BaseClass - *********Extract the Year on Year value from Table**********
+22:39:43.481 [main] INFO  baseTest.BaseClass - *********Move to EMI Calculator menu**********
+22:39:44.520 [main] INFO  baseTest.BaseClass - *********Enter the Valid Inputs**********
+22:39:45.518 [main] INFO  baseTest.BaseClass - *********Checking the UI of Loan Calculator Page**********
+22:39:45.884 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+22:39:46.044 [main] INFO  baseTest.BaseClass - *********Check the changes in Slider**********
+22:39:46.578 [main] INFO  baseTest.BaseClass - *********Move to Emi Calculator Page**********
+22:39:47.544 [main] INFO  baseTest.BaseClass - *********Enter the Valid Inputs**********
+22:39:49.268 [main] INFO  baseTest.BaseClass - *********Checking the UI of EMI Calculator Page**********
+22:39:49.606 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+22:39:49.758 [main] INFO  baseTest.BaseClass - *********Check the changes in Slider**********
+22:39:50.212 [main] INFO  baseTest.BaseClass - *********Move to Loan Tenure Calculator Page**********
+22:39:51.295 [main] INFO  baseTest.BaseClass - *********Checking the UI of EMI Calculator Page**********
+22:39:51.620 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+22:52:56.858 [main] INFO  baseTest.BaseClass - ********Go to EMI Calcultor**********
+22:52:57.706 [main] INFO  baseTest.BaseClass - ********Enter the Valid Inputs**********
+22:53:00.479 [main] INFO  baseTest.BaseClass - ********Click the Year Button**********
+22:53:01.188 [main] INFO  baseTest.BaseClass - ********Extract the Principal and Interest Amount**********
+22:53:01.643 [main] INFO  baseTest.BaseClass - ********Click the Home Loan Menu**********
+22:53:03.286 [main] INFO  baseTest.BaseClass - *********Enter the Valid Inputs**********
+22:53:08.008 [main] INFO  baseTest.BaseClass - *********Move to payment schedule table**********
+22:53:08.276 [main] INFO  baseTest.BaseClass - *********Extract the Year on Year value from Table**********
+22:53:21.742 [main] INFO  baseTest.BaseClass - *********Move to EMI Calculator menu**********
+22:53:23.538 [main] INFO  baseTest.BaseClass - *********Enter the Valid Inputs**********
+22:53:25.571 [main] INFO  baseTest.BaseClass - *********Checking the UI of Loan Calculator Page**********
+22:53:26.222 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+22:53:26.434 [main] INFO  baseTest.BaseClass - *********Check the changes in Slider**********
+22:53:27.377 [main] INFO  baseTest.BaseClass - *********Move to Emi Calculator Page**********
+22:53:29.404 [main] INFO  baseTest.BaseClass - *********Enter the Valid Inputs**********
+22:53:32.031 [main] INFO  baseTest.BaseClass - *********Checking the UI of EMI Calculator Page**********
+22:53:32.660 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+22:53:32.844 [main] INFO  baseTest.BaseClass - *********Check the changes in Slider**********
+22:53:33.665 [main] INFO  baseTest.BaseClass - *********Move to Loan Tenure Calculator Page**********
+22:53:35.737 [main] INFO  baseTest.BaseClass - *********Checking the UI of EMI Calculator Page**********
+22:53:36.475 [main] INFO  baseTest.BaseClass - Validating the Expected message!
+23:02:10.270 [main] INFO  baseTest.BaseClass - ********Go to EMI Calcultor**********
+23:02:11.576 [main] INFO  baseTest.BaseClass - ********Enter the Valid Inputs**********
+23:02:14.222 [main] INFO  baseTest.BaseClass - ********Click the Year Button**********
+23:02:15.302 [main] INFO  baseTest.BaseClass - ********Extract the Principal and Interest Amount**********
+23:02:15.827 [main] INFO  baseTest.BaseClass - ********Click the Home Loan Menu**********
+23:03:27.139 [main] INFO  baseTest.BaseClass - ********Go to EMI Calcultor**********
+23:03:28.006 [main] INFO  baseTest.BaseClass - ********Enter the Valid Inputs**********

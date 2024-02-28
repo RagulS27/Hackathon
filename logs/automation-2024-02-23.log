@@ -1,0 +1,54 @@
+17:08:58.485 [main] INFO  testCases.TestCase - Clicked on month button..
+17:08:58.712 [main] INFO  testCases.TestCase - Validating the Expected message!
+17:08:58.712 [main] INFO  testCases.TestCase - ********Finished TestCase EMI Calculator*********
+17:08:58.717 [main] INFO  testCases.TestCase - ********Starting TestCase UI Check in Loan Calculator*********
+17:08:58.718 [main] INFO  testCases.TestCase - Entering the valid inputs..
+17:09:00.322 [main] INFO  testCases.TestCase - Validating the Expected message!
+17:09:00.322 [main] INFO  testCases.TestCase - ********Finished TestCase UI Check in Loan Calculator*********
+17:09:00.326 [main] INFO  testCases.TestCase - ********Starting TestCase Loan Calculator*********
+17:09:00.392 [main] INFO  testCases.TestCase - Clicked on year button..
+17:09:00.553 [main] INFO  testCases.TestCase - Clicked on month button..
+17:09:00.725 [main] INFO  testCases.TestCase - ********Finished TestCase Loan Calculator*********
+17:09:00.731 [main] INFO  testCases.TestCase - ********Starting TestCase UI Check for Loan Tenure Calculator*********
+17:09:01.125 [main] INFO  testCases.TestCase - Validating the Expected message!
+17:09:01.125 [main] INFO  testCases.TestCase - ********Finished TestCase UI Check for Loan Tenure Calculator*********
+17:11:18.191 [main] INFO  testCases.TestCase - ********Starting TestCase Car Loan Validation*********
+17:11:18.336 [main] INFO  testCases.TestCase - Entering the valid inputs..
+17:11:19.873 [main] INFO  testCases.TestCase - Getting the data of Principal and Interest Amount..
+17:11:19.996 [main] INFO  testCases.TestCase - Validating the Expected message!
+17:11:20.031 [main] INFO  testCases.TestCase - ********Finished TestCase Car Loan Validation*********
+17:11:20.061 [main] INFO  testCases.TestCase - ********Starting TestCase Home Loan Validation*********
+17:11:21.048 [main] INFO  testCases.TestCase - Entering the valid inputs..
+17:11:23.616 [main] INFO  testCases.TestCase - Extract the data from table..
+17:11:30.492 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+17:11:30.493 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+17:11:30.645 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+17:11:30.655 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+17:11:30.659 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+17:11:30.667 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+17:11:30.668 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+17:11:30.668 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+17:11:30.671 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+17:11:30.691 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+17:11:30.693 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+17:11:30.695 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+17:11:30.696 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+17:11:30.699 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+17:11:30.699 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+17:11:30.699 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+17:11:30.702 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+17:11:30.704 [main] INFO  testCases.TestCase - ********Finished TestCase Home Loan Validation*********
+17:11:30.710 [main] INFO  testCases.TestCase - ********Starting TestCase UI Check in EMI Calculator*********
+17:11:31.565 [main] INFO  testCases.TestCase - Entering the valid inputs..
+17:11:32.802 [main] INFO  testCases.TestCase - Checking the UI of TextBox and Scales ..
+17:11:33.292 [main] INFO  testCases.TestCase - Validating the Expected message!
+17:11:33.292 [main] INFO  testCases.TestCase - ********Finished TestCase UI Check in EMI Calculator*********
+17:11:33.296 [main] INFO  testCases.TestCase - ********Starting TestCase EMI Calculator*********
+17:11:33.411 [main] INFO  testCases.TestCase - Clicked on year button..
+17:11:33.594 [main] INFO  testCases.TestCase - Clicked on month button..
+17:11:33.816 [main] INFO  testCases.TestCase - Validating the Expected message!
+17:11:33.816 [main] INFO  testCases.TestCase - ********Finished TestCase EMI Calculator*********
+17:11:33.820 [main] INFO  testCases.TestCase - ********Starting TestCase UI Check in Loan Calculator*********
+17:11:33.821 [main] INFO  testCases.TestCase - Entering the valid inputs..
+17:11:35.402 [main] INFO  testCases.TestCase - Validating the Expected message!
+17:11:35.402 [main] INFO  testCases.TestCase - ********Finished TestCase UI Check in Loan Calculator*********

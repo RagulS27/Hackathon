@@ -1,0 +1,48 @@
+16:50:30.384 [TestNG-tests-1] INFO  testCases.TestCase - Chrome browser opened successfully
+16:50:31.891 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Car Loan Validation*********
+16:50:42.155 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Home Loan Validation*********
+16:51:47.889 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+16:51:53.625 [TestNG-tests-1] INFO  testCases.TestCase - Extract the data from table..
+16:52:07.144 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+16:52:07.145 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+16:52:07.368 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+16:52:07.382 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+16:52:07.391 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+16:52:07.410 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+16:52:07.411 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+16:52:07.411 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+16:52:07.417 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+16:52:07.453 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+16:52:07.458 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+16:52:07.463 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+16:52:07.464 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+16:52:07.470 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+16:52:07.471 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+16:52:07.472 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+16:52:07.476 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+16:52:07.481 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Home Loan Validation*********
+16:52:07.501 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check in EMI Calculator*********
+16:52:39.302 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+16:52:47.982 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase EMI Calculator*********
+16:52:48.041 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check in Loan Calculator*********
+16:52:48.043 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+16:52:48.095 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Loan Calculator*********
+16:52:48.149 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check for Loan Tenure Calculator*********
+16:54:22.483 [TestNG-tests-1] INFO  testCases.TestCase - Chrome browser opened successfully
+16:54:56.091 [TestNG-tests-1] INFO  testCases.TestCase - Chrome browser opened successfully
+16:55:01.530 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Car Loan Validation*********
+16:55:01.840 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+16:55:05.057 [TestNG-tests-1] INFO  testCases.TestCase - Getting the data of Principal and Interest Amount..
+16:55:05.200 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+16:55:05.258 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Car Loan Validation*********
+16:55:05.301 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Home Loan Validation*********
+16:55:06.933 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+16:55:11.672 [TestNG-tests-1] INFO  testCases.TestCase - Extract the data from table..
+16:55:24.852 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+16:55:24.853 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+16:55:25.098 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+16:55:25.114 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+16:55:25.123 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+16:55:25.143 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+16:55:25.144 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+16:55:25.145 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
