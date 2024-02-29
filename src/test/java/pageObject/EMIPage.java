@@ -43,16 +43,26 @@ public class EMIPage extends BasePage{
 	@FindBy(xpath="//*[@id='loantermslider']/span")
 	WebElement slider;
 	
+	@FindBy(xpath="//*[@id='loaninterestslider']/span")
+	WebElement interestSlider;
+	
+	@FindBy(xpath="//*[@id=\"loanamountslider\"]")
+	WebElement amountSlider;
+	
+	@FindBy(xpath="//*[@id=\"loanfeesslider\"]")
+	WebElement loanFeesSlider;
+	
 	@FindBy(xpath="//*[@id=\"loan-amount-calc\"]/a[1]")
 	WebElement LoanAmountMenu;
+	
+	@FindBy(xpath="//*[@id='loanemislider']")
+	WebElement loanEmiSlider;
 	
 	@FindBy(xpath="//*[@id='loanemi']")
 	WebElement emiTextBox ;
 	
 	@FindBy(xpath="//*[@id='loan-tenure-calc']")
 	WebElement loanTenureMenu ;
-	
-	
 	
 	public void clickLoanTenure() {
 		loanTenureMenu.click();
@@ -94,6 +104,22 @@ public class EMIPage extends BasePage{
 		return slider;
 	}
 	
+	public WebElement checkInterestSlider() {
+		return interestSlider;
+	}
+	
+	public WebElement checkAmountSlider() {
+		return amountSlider;
+	}
+	
+	public WebElement checkLoanFeesSlider() {
+		return loanFeesSlider;
+	}
+	
+	public WebElement checkLoanEmiSlider() {
+		return loanEmiSlider;
+	}
+	
 	public void enterAmount(String value) {
 		amountTextBox.sendKeys(Keys.CONTROL, Keys.chord("a")); 
 		amountTextBox.sendKeys(Keys.BACK_SPACE);
@@ -113,7 +139,8 @@ public class EMIPage extends BasePage{
 	}
 	
 	public void enterFee(String value) {
-		feeTextBox.clear();
+		feeTextBox.sendKeys(Keys.CONTROL, Keys.chord("a")); 
+		feeTextBox.sendKeys(Keys.BACK_SPACE);
 		feeTextBox.sendKeys(value);
 	}
 	

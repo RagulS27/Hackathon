@@ -28,65 +28,110 @@ public class BaseTest {
 	public WebDriver driver;
 	public Logger logger;
 	Properties p;
+
 	
 	@BeforeClass
 	@Parameters({"os","browser"})
-	public void openApp(String os,String browser) throws IOException {
+	public void openApp(String os,String br) throws IOException {
 		
-		logger=LogManager.getLogger(this.getClass());
-		FileReader file = new FileReader(".//src/test/resources/config.properties");
-		p=new Properties();
+//		logger=LogManager.getLogger(this.getClass());
+//		FileReader file = new FileReader(".//src/test/resources/Config.properties");
+//		p=new Properties();
+//		p.load(file);
+//		
+//	
+//		
+//		if(p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+//			DesiredCapabilities capabalities = new DesiredCapabilities();
+//			//os
+//			if(os.equalsIgnoreCase("windows")) {
+//				capabalities.setPlatform(Platform.WIN11);
+//			}
+//			else if (os.equalsIgnoreCase("mac")) {
+//				capabalities.setPlatform(Platform.MAC);
+//			}
+//			else {
+//				System.out.println("no matching os .....");
+//				return;
+//			}
+//			//browser
+//			
+//			if(browser.equalsIgnoreCase("chrome")) {
+//				driver=new ChromeDriver();			
+//			}
+//			else if(browser.equalsIgnoreCase("edge")) {
+//				driver=new EdgeDriver();
+//			}
+//			else {
+//				System.out.println("no matching browser .....");
+//				return;
+//			}
+//			 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub") , capabalities);
+//		}
+//		else if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
+//			if(browser.equalsIgnoreCase("chrome")) {
+//				driver=new ChromeDriver();
+//				logger.info("Chrome browser opened successfully");
+//			}
+//			else if(browser.equalsIgnoreCase("edge")){
+//				driver=new EdgeDriver();
+//				logger.info("Edge browser opened successfully");
+//			}
+//			else {
+//				System.out.println("no matching browser......");
+//				logger.info("no matching browser......");
+//				return;
+//			}
+//		}
+//				driver.get(p.getProperty("appURL"));
+//		        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+//				
+//
+//				driver.manage().window().maximize();
+		FileReader file = new FileReader(".//src//test//resources//config.properties");
+		p = new Properties();
 		p.load(file);
-		
-	
-		
+		logger=LogManager.getLogger(this.getClass());
 		if(p.getProperty("execution_env").equalsIgnoreCase("remote")) {
-			DesiredCapabilities capabalities = new DesiredCapabilities();
-			//os
+			DesiredCapabilities capabilities = new DesiredCapabilities();
 			if(os.equalsIgnoreCase("windows")) {
-				capabalities.setPlatform(Platform.WIN11);
+				capabilities.setPlatform(Platform.WIN11);
 			}
-			else if (os.equalsIgnoreCase("mac")) {
-				capabalities.setPlatform(Platform.MAC);
-			}
-			else {
-				System.out.println("no matching os .....");
-				return;
-			}
-			//browser
-			
-			if(browser.equalsIgnoreCase("chrome")) {
-				driver=new ChromeDriver();			
-			}
-			else if(browser.equalsIgnoreCase("edge")) {
-				driver=new EdgeDriver();
+			else if(os.equalsIgnoreCase("mac")) {
+				capabilities.setPlatform(Platform.MAC);
 			}
 			else {
-				System.out.println("no matching browser .....");
-				return;
+				System.out.println("No Matching os");
 			}
-			 driver = new RemoteWebDriver(new URL("http://10.66.140.95:4444") , capabalities);
+			switch(br.toLowerCase()) {
+			case  "chrome":
+				capabilities.setBrowserName("chrome");
+				break;
+			case  "edge":
+				capabilities.setBrowserName("MicrosoftEdge");
+				break;
+			default:
+				System.out.println("No matching browser");
+			}
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
 		}
-		else if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
-			if(browser.equalsIgnoreCase("chrome")) {
-				driver=new ChromeDriver();
-				logger.info("Chrome browser opened successfully");
-			}
-			else if(browser.equalsIgnoreCase("edge")){
+		else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
+			switch(br.toLowerCase()) {
+			case "chrome":
+				driver = new ChromeDriver();
+				break;
+			case "edge":
 				driver=new EdgeDriver();
-				logger.info("Edge browser opened successfully");
-			}
-			else {
-				System.out.println("no matching browser......");
-				logger.info("no matching browser......");
+				break;
+			default:
+				System.out.println("No Matching Browser");
 				return;
 			}
 		}
-		        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-				driver.get(p.getProperty("appURL"));
-
-				driver.manage().window().maximize();
-
+		driver.get(p.getProperty("appURL"));
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 				
 	}
 	

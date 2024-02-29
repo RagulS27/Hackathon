@@ -5,7 +5,7 @@
     <listener class-name="extendReport.ExtendReports"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="Test(failed)">
-    <parameter name="os" value="windows"/>
+    <parameter name="os" value="mac"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testCases.TestCase">

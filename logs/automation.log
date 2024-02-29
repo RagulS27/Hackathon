@@ -1,31 +1,11 @@
-16:55:25.151 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
-16:55:25.248 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
-16:55:25.254 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
-16:55:25.258 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
-16:55:25.259 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
-16:55:25.266 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
-16:55:25.267 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
-16:55:25.269 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
-16:55:25.276 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
-16:55:25.283 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Home Loan Validation*********
-16:55:25.295 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check in EMI Calculator*********
-16:55:27.518 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
-16:55:30.422 [TestNG-tests-1] INFO  testCases.TestCase - Checking the UI of TextBox and Scales ..
-16:55:31.337 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
-16:55:31.337 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check in EMI Calculator*********
-16:55:31.344 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase EMI Calculator*********
-16:55:31.492 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on year button..
-16:55:31.911 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on month button..
-16:55:32.308 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
-16:55:32.308 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase EMI Calculator*********
-16:55:32.315 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check in Loan Calculator*********
-16:55:32.317 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
-16:55:36.428 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
-16:55:36.428 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check in Loan Calculator*********
-16:55:36.433 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Loan Calculator*********
-16:55:36.558 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on year button..
-16:55:36.936 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on month button..
-16:55:37.228 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Loan Calculator*********
-16:55:37.237 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check for Loan Tenure Calculator*********
-16:55:38.425 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
-16:55:38.426 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check for Loan Tenure Calculator*********
+17:02:13.622 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check in Loan Calculator*********
+17:02:13.636 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+17:02:16.375 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+17:02:16.376 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check in Loan Calculator*********
+17:02:16.382 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Loan Calculator*********
+17:02:16.475 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on year button..
+17:02:16.741 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on month button..
+17:02:16.970 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Loan Calculator*********
+17:02:16.976 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check for Loan Tenure Calculator*********
+17:02:17.896 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+17:02:17.897 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check for Loan Tenure Calculator*********

@@ -8,6 +8,7 @@ import io.cucumber.java.en.*;
 import pageObject.CarLoanPage;
 import pageObject.EMIPage;
 import pageObject.HomeLoanPage;
+import utils.ExcelUtils;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -26,6 +27,8 @@ public class Emi_Calculator{
 			CarLoanPage cr;
 			HomeLoanPage lr;
 			EMIPage em;
+			String PrincipalAmount;
+			String InterestAmount;
 			String yearSlider;
 			String monthSlider;
 			Hooks h=new Hooks();
@@ -57,8 +60,8 @@ public class Emi_Calculator{
 		@Then("user should see the principal amount and interest amount")
 		public void user_should_see_the_principal_amount_and_interest_amount() {
 			BaseClass.getLogger().info("********Extract the Principal and Interest Amount**********");
-		    cr.getAmount();
-		    cr.getInterest();
+			PrincipalAmount=cr.getAmount();
+			InterestAmount=cr.getInterest();
 		    System.out.println("Principal Amount:"+cr.getAmount());
 		    System.out.println("Interest Amount:"+cr.getInterest());
 		    
@@ -93,7 +96,7 @@ public class Emi_Calculator{
 		}
 
 		@Then("the user extract the data")
-		public void the_user_extract_the_data() {
+		public void the_user_extract_the_data() throws IOException {
 			BaseClass.getLogger().info("*********Extract the Year on Year value from Table**********");
 			List<String> Heaader =new ArrayList<String>();
 			List<String> Data =new ArrayList<String>();
@@ -112,6 +115,7 @@ public class Emi_Calculator{
 					 System.out.println(".....row ="+lr.getAllRows().get(i).getText());
 					 Data.add(lr.getAllRows().get(i).getText());
 			}
+			ExcelUtils.excel(PrincipalAmount,InterestAmount,Heaader,Data);
 		}
 		
 		@Given("the user open the loan calculator")
@@ -172,7 +176,9 @@ public class Emi_Calculator{
 			Boolean termBox=em.termTextBox().isDisplayed();
 			Boolean slider=em.checkSlider().isEnabled();
 			Boolean feeBox=em.feeTextBox().isDisplayed();
-			
+			Boolean interestSlider=em.checkInterestSlider().isEnabled();
+			Boolean feeSlider=em.checkLoanFeesSlider().isEnabled();
+			Boolean amountSlider=em.checkAmountSlider().isEnabled();
 			BaseClass.getLogger().info("Validating the Expected message!");
 
 			Assert.assertEquals(amountBox,true);
@@ -180,19 +186,12 @@ public class Emi_Calculator{
 			Assert.assertEquals(termBox,true);
 			Assert.assertEquals(feeBox,true);
 			Assert.assertEquals(slider,true);
-
+			Assert.assertEquals(interestSlider,true);
+			Assert.assertEquals(feeSlider,true);
+			Assert.assertEquals(amountSlider,true);
 			
 		}
 		
-//		@Given("the user open the loan calculator")
-//		public void user_open_the_loancalculator() {
-//			BaseClass.getLogger().info("*********Enter the Valid Inputs**********");
-//			em=new EMIPage(driver);
-//		    em.clicCalculatorMenu();
-//		    em.clickLoanCalculatorMenu();
-//		    em.LoanAmountMenu();
-//		    
-//		}
 
 		@Then("user check the changes in slider")
 		public void user_check_the_changes_in_slider() {
@@ -271,6 +270,9 @@ public class Emi_Calculator{
 			Boolean termBox=em.termTextBox().isDisplayed();
 			Boolean slider=em.checkSlider().isEnabled();
 			Boolean feeBox=em.feeTextBox().isDisplayed();
+			Boolean emiSlider=em.checkLoanEmiSlider().isEnabled();
+			Boolean interestSlider=em.checkInterestSlider().isEnabled();
+			Boolean feeSlider=em.checkLoanFeesSlider().isEnabled();
 			
 			BaseClass.getLogger().info("Validating the Expected message!");
 			Assert.assertEquals(emiBox,true);
@@ -278,7 +280,9 @@ public class Emi_Calculator{
 			Assert.assertEquals(termBox,true);
 			Assert.assertEquals(feeBox,true);
 			Assert.assertEquals(slider,true);
-			
+			Assert.assertEquals(emiSlider,true);
+			Assert.assertEquals(interestSlider,true);
+			Assert.assertEquals(feeSlider,true);
 		}
 		
 		@And("user check the change in slider")
@@ -313,6 +317,10 @@ public class Emi_Calculator{
 			Boolean loanBox=emi.amountTextBox().isDisplayed();
 			Boolean slider=emi.checkSlider().isEnabled();
 			Boolean feeBox=emi.feeTextBox().isDisplayed();
+			Boolean interestSlider=emi.checkInterestSlider().isEnabled();
+			Boolean feeSlider=emi.checkLoanFeesSlider().isEnabled();
+			Boolean amountSlider=emi.checkAmountSlider().isEnabled();
+			
 			if(em.emiTextBox().isDisplayed()) {
 				System.out.println("EMI Text Box is Displayed");
 			}
@@ -352,6 +360,9 @@ public class Emi_Calculator{
 			Assert.assertEquals(loanBox,true);
 			Assert.assertEquals(feeBox,true);
 			Assert.assertEquals(slider,true);
+			Assert.assertEquals(interestSlider,true);
+			Assert.assertEquals(feeSlider,true);
+			Assert.assertEquals(amountSlider,true);
 			System.out.println("------------UI Check Verified--------------");
 		}
 		

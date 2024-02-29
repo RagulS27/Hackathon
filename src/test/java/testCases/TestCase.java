@@ -151,6 +151,9 @@ public class TestCase extends BaseTest{
 		Boolean termBox=emi.termTextBox().isDisplayed();
 		Boolean slider=emi.checkSlider().isEnabled();
 		Boolean feeBox=emi.feeTextBox().isDisplayed();
+		Boolean interestSlider=emi.checkInterestSlider().isEnabled();
+		Boolean feeSlider=emi.checkLoanFeesSlider().isEnabled();
+		Boolean amountSlider=emi.checkAmountSlider().isEnabled();
 		
 		logger.info("Validating the Expected message!");
 
@@ -159,6 +162,9 @@ public class TestCase extends BaseTest{
 		Assert.assertEquals(termBox,true);
 		Assert.assertEquals(feeBox,true);
 		Assert.assertEquals(slider,true);
+		Assert.assertEquals(interestSlider,true);
+		Assert.assertEquals(feeSlider,true);
+		Assert.assertEquals(amountSlider,true);
 
 		logger.info("********Finished TestCase UI Check in EMI Calculator*********");
 	}
@@ -232,13 +238,19 @@ public class TestCase extends BaseTest{
 		Boolean termBox=emi.termTextBox().isDisplayed();
 		Boolean slider=emi.checkSlider().isEnabled();
 		Boolean feeBox=emi.feeTextBox().isDisplayed();
-		
+		Boolean emiSlider=emi.checkLoanEmiSlider().isEnabled();
+		Boolean interestSlider=emi.checkInterestSlider().isEnabled();
+		Boolean feeSlider=emi.checkLoanFeesSlider().isEnabled();
 		logger.info("Validating the Expected message!");
 		Assert.assertEquals(emiBox,true);
 		Assert.assertEquals(interestBox,true);
 		Assert.assertEquals(termBox,true);
 		Assert.assertEquals(feeBox,true);
 		Assert.assertEquals(slider,true);
+		Assert.assertEquals(emiSlider,true);
+		Assert.assertEquals(interestSlider,true);
+		Assert.assertEquals(feeSlider,true);
+		
 		logger.info("********Finished TestCase UI Check in Loan Calculator*********");
 	}
 	
@@ -271,6 +283,9 @@ public class TestCase extends BaseTest{
 		Boolean loanBox=emi.amountTextBox().isDisplayed();
 		Boolean slider=emi.checkSlider().isEnabled();
 		Boolean feeBox=emi.feeTextBox().isDisplayed();
+		Boolean interestSlider=emi.checkInterestSlider().isEnabled();
+		Boolean feeSlider=emi.checkLoanFeesSlider().isEnabled();
+		Boolean amountSlider=emi.checkAmountSlider().isEnabled();
 		if(emi.emiTextBox().isDisplayed()) {
 			System.out.println("EMI Text Box is Displayed");
 		}
@@ -310,6 +325,9 @@ public class TestCase extends BaseTest{
 		Assert.assertEquals(loanBox,true);
 		Assert.assertEquals(feeBox,true);
 		Assert.assertEquals(slider,true);
+		Assert.assertEquals(interestSlider,true);
+		Assert.assertEquals(feeSlider,true);
+		Assert.assertEquals(amountSlider,true);
 		logger.info("********Finished TestCase UI Check for Loan Tenure Calculator*********");
 		System.out.println("------------UI Check Verified--------------");
 	}

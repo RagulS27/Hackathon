@@ -6,29 +6,29 @@
   <name>Hackathon</name>
   <url>http://maven.apache.org</url>
 	<properties>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+	   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+			</properties>
 	<build>
-	<pluginManagement>
-	<plugins>
-	<plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-compiler-plugin</artifactId>
-	<version>3.12.1</version>
-	</plugin>
-	<plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-surefire-plugin</artifactId>
-	<version>3.2.5</version>
-	<configuration>
-	<parallel>methods</parallel>
+		<pluginManagement>
+			<plugins>
+			<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.12.1</version>
+			</plugin>
+			<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.2.5</version>
+					<configuration>
+			<parallel>methods</parallel>
 	<!--<useUnlimitedThreads>true</useUnlimitedThreads> -->
-	<threadCount>2</threadCount>
-	</configuration>
-	</plugin>
-	</plugins>
+			<threadCount>2</threadCount>
+			</configuration>
+		</plugin>
+	  </plugins>
 	</pluginManagement>
-	</build>
+</build>
   <dependencies>
   
 	  	<dependency>

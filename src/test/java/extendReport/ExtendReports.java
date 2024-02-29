@@ -1,5 +1,8 @@
 package extendReport;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -22,8 +25,14 @@ public class ExtendReports implements ITestListener{
 	//creating test case entries in the report and update status of the test methods
 	public ExtentTest test;
 	
+	String repName;
+	
 	public void onStart(ITestContext context) {
-		sparkReporter=new ExtentSparkReporter(System.getProperty("user.dir")+"\\report\\myReport.html");
+		
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
+		repName = "Test-Report-" + timeStamp + ".html";
+		
+		sparkReporter=new ExtentSparkReporter(".\\Reports\\"+repName);
 		
 		sparkReporter.config().setDocumentTitle("EMI Calculator Automation Report");
 		sparkReporter.config().setReportName("EMI Calculator Testing");

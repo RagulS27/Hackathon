@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 					features= {".//FeatureFiles/EMI_Calculator.feature"},
 					glue="stepDefinition",
 					plugin={"pretty","html:report//myreport.html",
-							"json:report/myreport.json"		
+							"rerun:target/rerun.txt",
+							"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 					        },
 					dryRun=false,
 					monochrome=true,
