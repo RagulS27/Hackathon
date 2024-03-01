@@ -1,0 +1,49 @@
+15:03:41.705 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+15:03:41.721 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+15:03:41.942 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+15:03:41.955 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+15:03:41.962 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+15:03:41.974 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+15:03:41.975 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+15:03:41.976 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+15:03:41.979 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+15:03:42.003 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+15:03:42.007 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+15:03:42.010 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+15:03:42.011 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+15:03:42.015 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+15:03:42.016 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+15:03:42.017 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+15:03:42.020 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+15:03:42.022 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Home Loan Validation*********
+15:03:42.032 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check in EMI Calculator*********
+15:03:43.302 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+15:03:45.081 [TestNG-tests-1] INFO  testCases.TestCase - Checking the UI of TextBox and Scales ..
+15:03:45.847 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+15:03:45.850 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check in EMI Calculator*********
+15:03:45.853 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase EMI Calculator*********
+15:03:45.981 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on year button..
+15:03:46.225 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on month button..
+15:03:46.471 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+15:03:46.471 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase EMI Calculator*********
+15:03:46.474 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check in Loan Calculator*********
+15:03:46.475 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+15:03:48.647 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+15:03:48.647 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check in Loan Calculator*********
+15:03:48.650 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Loan Calculator*********
+15:03:48.757 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on year button..
+15:03:48.932 [TestNG-tests-1] INFO  testCases.TestCase - Clicked on month button..
+15:03:49.123 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Loan Calculator*********
+15:03:49.125 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase UI Check for Loan Tenure Calculator*********
+15:03:49.885 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+15:03:49.885 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase UI Check for Loan Tenure Calculator*********
+15:06:13.171 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Car Loan Validation*********
+15:06:13.386 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+15:06:15.182 [TestNG-tests-1] INFO  testCases.TestCase - Getting the data of Principal and Interest Amount..
+15:06:15.289 [TestNG-tests-1] INFO  testCases.TestCase - Validating the Expected message!
+15:06:15.322 [TestNG-tests-1] INFO  testCases.TestCase - ********Finished TestCase Car Loan Validation*********
+15:06:15.345 [TestNG-tests-1] INFO  testCases.TestCase - ********Starting TestCase Home Loan Validation*********
+15:06:16.220 [TestNG-tests-1] INFO  testCases.TestCase - Entering the valid inputs..
+15:06:18.914 [TestNG-tests-1] INFO  testCases.TestCase - Extract the data from table..
+15:06:26.831 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save core properties part
+15:06:26.831 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part

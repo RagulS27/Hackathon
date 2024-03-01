@@ -33,61 +33,6 @@ public class BaseTest {
 	@BeforeClass
 	@Parameters({"os","browser"})
 	public void openApp(String os,String br) throws IOException {
-		
-//		logger=LogManager.getLogger(this.getClass());
-//		FileReader file = new FileReader(".//src/test/resources/Config.properties");
-//		p=new Properties();
-//		p.load(file);
-//		
-//	
-//		
-//		if(p.getProperty("execution_env").equalsIgnoreCase("remote")) {
-//			DesiredCapabilities capabalities = new DesiredCapabilities();
-//			//os
-//			if(os.equalsIgnoreCase("windows")) {
-//				capabalities.setPlatform(Platform.WIN11);
-//			}
-//			else if (os.equalsIgnoreCase("mac")) {
-//				capabalities.setPlatform(Platform.MAC);
-//			}
-//			else {
-//				System.out.println("no matching os .....");
-//				return;
-//			}
-//			//browser
-//			
-//			if(browser.equalsIgnoreCase("chrome")) {
-//				driver=new ChromeDriver();			
-//			}
-//			else if(browser.equalsIgnoreCase("edge")) {
-//				driver=new EdgeDriver();
-//			}
-//			else {
-//				System.out.println("no matching browser .....");
-//				return;
-//			}
-//			 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub") , capabalities);
-//		}
-//		else if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
-//			if(browser.equalsIgnoreCase("chrome")) {
-//				driver=new ChromeDriver();
-//				logger.info("Chrome browser opened successfully");
-//			}
-//			else if(browser.equalsIgnoreCase("edge")){
-//				driver=new EdgeDriver();
-//				logger.info("Edge browser opened successfully");
-//			}
-//			else {
-//				System.out.println("no matching browser......");
-//				logger.info("no matching browser......");
-//				return;
-//			}
-//		}
-//				driver.get(p.getProperty("appURL"));
-//		        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-//				
-//
-//				driver.manage().window().maximize();
 		FileReader file = new FileReader(".//src//test//resources//config.properties");
 		p = new Properties();
 		p.load(file);
